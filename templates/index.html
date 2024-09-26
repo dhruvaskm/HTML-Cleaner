@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cleaner</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Correct path -->
+</head>
+<body>
+    <h1>HTML Cleaner</h1>
+    
+    <!-- File Upload Section -->
+    <input type="file" id="fileInput" accept=".html">
+    <button id="loadFileButton">Load HTML File</button>
+
+    <!-- Textarea for input HTML -->
+    <textarea id="inputHtml" placeholder="Paste your HTML here..."></textarea>
+    <button id="cleanButton">Clean HTML</button>
+    <h2>Cleaned HTML:</h2>
+    <textarea id="outputHtml" readonly></textarea>
+    <button id="downloadHtmlButton" style="display: none;">Download Cleaned HTML</button>
+    <button id="downloadCssButton" style="display: none;">Download CSS</button>
+
+    <script src="/script/script.js"></script> <!-- Correct path -->
+</body>
+</html>
